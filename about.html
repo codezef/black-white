@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact us | Magnide Solutions</title>
+    <!-- FAVICON LINK -->
+    <link rel="shortcut icon" href="images/favicon.html" type="image/x-icon">
+    <!-- STYLESHEETS -->
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap-theme.min.css">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" type="text/css" href="css/vendor/font-awesome/css/font-awesome.min.css" />
+    <!-- MAGNIFIC LIGHT BOX -->
+    <link rel="stylesheet" type="text/css" href="css/vendor/magnific/magnific-popup.css">
+    <!-- CAROUSEL STYLE LINK -->
+    <link rel="stylesheet" type="text/css" href="css/vendor/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/vendor/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="css/vendor/owl-carousel/carousel.css">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" type="text/css" href="css/custom/style.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="100">
+    <!--================================= NAVIGATION START ==========================================-->
+    <header>
+        <nav class="topbar navbar navbar-default navbar-fixed-top clearfix" id="top-nav">
+            <div class="container">
+                <div class="logo-image">
+                    <a href="index.html"><img src="images/logo.png" alt="150x50" width="150" /></a>
+                </div>
+                <div class="navbar-right nav">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav" id="menu_1">
+                                <li class="menu">
+                                    <a href="index.html" class="n-pagescroll">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="menu">
+                                    <a href="#" class="n-pagescroll">
+                                        About
+                                    </a>
+                                </li>
+                                <li class="menu">
+                                    <a href="#testimonial" class="n-pagescroll">
+                                        Services
+                                    </a>
+                                </li>
+                                <li class="menu">
+                                    <a href="#news" class="n-pagescroll">
+                                        News
+                                    </a>
+                                </li>
+                                <li class="menu">
+                                    <a href="contact.html" class="n-pagescroll">
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+        </nav>
+    </header>
+    <!--================================= NAVIGATION END ==========================================-->
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+        @font-face {
+            font-family: 'oriya-mn';
+            src: url('Oriya-MN.ttc');
+        }
+
+        .about-span {
+            color: #333;
+            font-size: 45px;
+            line-height: 1.2;
+            font-weight: 500;
+            font-family: 'oriya-mn', sans-serif !important;
+            display: flex;
+            justify-content: right;
+        }
+
+
+        .abt1-img {
+            margin-top: 50px;
+        }
+
+        .abt-lft-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+            margin-top: 100px;
+        }
+
+        .abt-btn {
+            background: #000;
+            border-radius: 0;
+            font-family: 'Poppins', sans-serif;
+            color: #ffffff;
+            cursor: pointer;
+            font-size: 14px;
+            letter-spacing: 1px;
+            outline: none;
+            padding: 10px 15px;
+            text-transform: capitalize;
+            border: 1px solid transparent;
+        }
+
+        .abt-btn:hover {
+            color: #000;
+            background: #ffffff;
+            border: 1px solid #000;
+        }
+
+        .contact-img {
+            position: relative;
+        }
+
+        .abt-lft-wrapper {
+            padding-right: 120px;
+        }
+
+        .abt-lft-wrapper p {
+            font-size: 16px;
+            color: #333;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .abt-lh {
+            position: absolute;
+            right: -130px;
+            top: 298px;
+            font-size: 100px;
+            transform: rotate(90deg);
+            font-family: 'oriya-mn', sans-serif !important;
+            color: #bdbdbd;
+        }
+
+        .work-flow-section {
+            background: #333;
+            padding: 50px 0;
+        }
+
+        .work-flow {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .wf-sub-heading {
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-size: 30px;
+            font-weight: 300;
+        }
+
+        .wf-heading {
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-size: 40px;
+            font-weight: 600;
+        }
+
+        .wf-wrapper {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 100px;
+            margin-top: 50px;
+        }
+
+        .wf-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .wf-item-img {
+            border: 1px solid rgb(255, 255, 255);
+            border-radius: 50%;
+            padding: 50px 25px 0px 25px;
+        }
+
+        .wf-item img {
+            width: 100%;
+            filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+        }
+
+        .wf-item-title {
+            color: #fff;
+            font-size: 19px;
+            font-family: 'Poppins', sans-serif;
+            margin-top: 20px;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        .about-last {
+            padding: 50px 0;
+        }
+
+        .abt-last-title {
+            color: #333333;
+            font-family: 'poppins', sans-serif;
+            font-size: 27px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            line-height: 45px;
+            text-transform: capitalize;
+        }
+
+        .al-wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .al-left {
+            padding-top: 65px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 15px;
+            padding-right: 80px;
+        }
+
+        .abt-line {
+            width: 100px;
+            height: 2px;
+            background: #333;
+            margin-top: -21px;
+        }
+
+        .al-right {
+            padding-left: 50px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .about-span {
+                justify-content: center;
+            }
+
+            .about-bg {
+                background: #fff;
+            }
+
+            .al-wrapper {
+                flex-direction: column;
+            }
+
+            .wf-wrapper {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .al-left {
+                padding-top: 0;
+                padding-right: 0;
+            }
+
+            .abt-lft-wrapper {
+                padding-right: 0px;
+            }
+
+            .abt-lh {
+                display: none;
+            }
+        }
+    </style>
+
+    <!--================================= ABOUT SECTION START ==========================================-->
+    <div class="section-padding about-bg" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 ">
+                    <span class="about-span">About Us</span>
+                    <img src="./images/abt1.png" alt="" width="100%" class="abt1-img">
+                </div>
+                <div class="col-sm-6 contact-img" id="canvas1" style="padding: 0 5%;">
+                    <div class="abt-lft-wrapper">
+                        <p>Magnide is providing services
+                            in almost all the IT verticals starting from
+                            Website Development Services in India,
+                            Business Development Services in India,
+                            in India, Digital Marketing Services in India,
+                            and Website Designing Services in India. </p>
+                        <p>
+                            Magnide is an IT company which
+                            is owned and managed by IT Professionals with
+                            proven track record in delivering high end solution
+                            in business development, website development,
+                            And Internet Marketing . Combining all aspects
+                            of Information technology, we present ourselves
+                            as providing the cubical approach to our
+                            clients.
+                        </p>
+                        <a href="#" class="abt-btn">Know More</a>
+                    </div>
+                    <span class="abt-lh">About us</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="work-flow-section">
+        <div class="container">
+            <div class="work-flow">
+                <h3 class="wf-sub-heading">Work Flow</h3>
+                <h2 class="wf-heading">Our Working Process</h2>
+                <div class="wf-wrapper">
+                    <article class="wf-item">
+                        <div class="wf-item-img">
+                            <img src="./images/noun-test-2930053.svg" alt="">
+                        </div>
+                        <span class="wf-item-title">Planning</span>
+                    </article>
+                    <article class="wf-item">
+                        <div class="wf-item-img">
+                            <img src="./images/noun-creativity-1140304.svg" alt="">
+                        </div>
+                        <span class="wf-item-title">Research</span>
+                    </article>
+                    <article class="wf-item">
+                        <div class="wf-item-img">
+                            <img src="./images/noun-optimization-1844921.svg" alt="">
+                        </div>
+                        <span class="wf-item-title">Optimizing</span>
+                    </article>
+                    <article class="wf-item">
+                        <div class="wf-item-img">
+                            <img src="./images/noun-result-4829046.svg" alt="">
+                        </div>
+                        <span class="wf-item-title">Results</span>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about-last">
+        <div class="container">
+            <div class="row al-wrapper">
+                <div class="col-sm-4 al-left">
+                    <h2 class="abt-last-title">We are Unstopable</h2>
+                    <div class="abt-line"></div>
+                    <p class="abt-p">A venture’s online website is the most
+                        crucial yet important feature for their
+                        marketing plan. Your Website is the
+                        centralised point for content and
+                        messaging marketing deeds. Every
+                        different marketing technique is used
+                        to build traffic at our respective
+                        website. </p>
+                    <p class="abt-p">We are dedicated to our customers
+                        and partners. We believe that our
+                        success depends on our skills and
+                        expertise we provide to our clients</p>
+                    <a href="#" class="abt-btn">Know More</a>
+                </div>
+                <div class="col-sm-7 al-right">
+                    <img src="./images/about-last.png" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================================= ABOUT SECTION ENDS ==========================================-->
+
+    <!--================================= FOOTER-1 START ==========================================-->
+    <div class="footer-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 footer-col">
+                    <div class="footer-logo">
+                        <a href="#"><img src="./images/logo.png" alt="250x80" class="img-responsive" /></a>
+                    </div>
+                    <h4>About Us</h4>
+                    <p>We deliver value for brands having the appetite to reach the mass, with the right message. Our
+                        abilities go beyond working on the existing platform.
+                    </p>
+                </div>
+                <div class="col-sm-4 footer-col-1">
+
+                    <div id="mc_embed_signup" class="subscribe-form">
+                        <h4>Subscribe Here</h4>
+                        <form
+                            action="http://evethemes.us11.list-manage.com/subscribe/post?u=a795532c55a578843e04b09c0&amp;id=fa362f029a"
+                            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                            class="validate form7 clearfix" novalidate>
+
+                            <input class="subscribe-input" type="email" name="EMAIL" value="" id="mce-EMAIL"
+                                placeholder="Please Enter Email">
+                            <div class="subscribe-btn">
+                                <button class="btn btn-1" id="mc-embedded-subscribe" type="submit">
+                                    Subscribe
+                                </button>
+                            </div>
+
+                            <div id="mce-responses">
+                                <div class="response response-msg" id="mce-error-response"></div>
+                                <div class="response response-msg" id="mce-success-response"></div>
+                            </div>
+                        </form>
+                        <div id="ResultMsg" class="message">
+                            <p class="SuccessMsg"></p>
+                            <p class="FailureMsg"></p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-4">
+                    <div class="contact-div">
+                        <ul class="content-ul contact-address contact-address-space">
+                            <li><img src="images/32x32x5.png" alt="32x32x5" /></li>
+                            <li>
+                                <p><a href="#">magnide@gmail.com</a> </p>
+                            </li>
+                        </ul>
+                        <ul class="content-ul contact-address contact-address-space">
+                            <li><img src="images/32x32x6.png" alt="32x32x6" /></li>
+                            <li>
+                                <p>Delhi, New Delhi, India. </p>
+                            </li>
+                        </ul>
+                        <ul class="content-ul contact-address contact-address-space">
+                            <li><img src="images/32x32x7.png" alt="32x32x7" /></li>
+                            <li>
+                                <p><a href="#">www.magnide.com</a> </p>
+                            </li>
+                        </ul>
+                        <ul class="content-ul contact-address">
+                            <li><img src="images/32x32x8.png" alt="32x32x8" /></li>
+                            <li>
+                                <p> +01 234 567 8910</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="content-ul footer1-icon">
+                        <li><a href="#"><img src="images/40x40x1.png" alt="40x40x1" /></a></li>
+                        <li><a href="#"><img src="images/40x40x2.png" alt="40x40x2" /></a></li>
+                        <li><a href="#"><img src="images/40x40x3.png" alt="40x40x3" /></a></li>
+                        <li><a href="#"><img src="images/40x40x4.png" alt="40x40x4" /></a></li>
+                        <li><a href="#"><img src="images/40x40x5.png" alt="40x40x5" /></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--================================= FOOTER-1 END ==========================================-->
+
+    <!--================================= COPYRIGHT-1 START ==========================================-->
+    <footer class="copyright-bg">
+        <div class="container copyright text-center">
+            <p>2017 &copy; All Rights Reserved</p>
+        </div>
+    </footer>
+    <!--================================= COPYRIGHT-1 END ==========================================-->
+    <!-- JQUERY LIBRARY -->
+    <script type="text/javascript" src="js/vendor/jquery.min.js"></script>
+    <!-- BOOTSTRAP -->
+    <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
+    <!-- SLIDER JS FILES -->
+    <script type="text/javascript" src="js/vendor/slider/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/vendor/slider/owl-slider.js"></script>
+    <!-- COUNTER JS FILES -->
+    <script type="text/javascript" src="js/vendor/counter/counter-lib.js"></script>
+    <script type="text/javascript" src="js/vendor/counter/jquery.counterup.min.js"></script>
+    <!-- MAGNIFIC LIGHT BOX -->
+    <script type="text/javascript" src="js/vendor/magnific/jquery.magnific-popup.js"></script>
+    <!-- SUBSCRIBE MAILCHIMP -->
+    <script type="text/javascript" src="js/vendor/subscribe/subscribe_validate.js"></script>
+    <!-- FORM VALIDATION -->
+    <script type="text/javascript" src="js/vendor/validate/jquery.validate.min.js"></script>
+    <!-- SHUFFLE JS FILES -->
+    <script type="text/javascript" src="js/vendor/shuffle/modernizr.custom.min.js"></script>
+    <script type="text/javascript" src="js/vendor/shuffle/jquery.shuffle.js"></script>
+    <script type="text/javascript" src="js/vendor/shuffle/page.js"></script>
+    <script type="text/javascript" src="js/vendor/shuffle/evenheights.js"></script>
+    <script type="text/javascript" src="js/vendor/shuffle/homepage.js"></script>
+    <!-- NUMBER VALIDATION JS FILES -->
+    <script type="text/javascript" src="js/vendor/number.js"></script>
+    <!-- THEME JS -->
+    <script type="text/javascript" src="js/custom/custom.js"></script>
+</body>
+
+</html>
